@@ -383,7 +383,7 @@ object Boilerplate {
 
   object GenSemigroupalArityFunctions extends Template {
     def filename(root: File) = root / "cats" / "SemigroupalArityFunctions.scala"
-    override def range = 2 to maxArity
+    override def range = 1 to maxArity
     def content(tv: TemplateVals) = {
       import tv._
 
